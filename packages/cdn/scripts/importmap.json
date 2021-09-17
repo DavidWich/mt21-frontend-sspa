@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "@hfu-microfrontend/root-config": "//localhost:9200/hfu-microfrontend-root-config.js",
+    "@hfu-microfrontend/studi-app-bib": "//localhost:9200/hfu-microfrontend-studi-app-bib.js",
+    "@hfu-microfrontend/studi-app-course": "//localhost:9200/hfu-microfrontend-studi-app-course.js",
+    "@hfu-microfrontend/studi-app-login": "//localhost:9200/hfu-microfrontend-studi-app-login.js",
+    "@hfu-microfrontend/studi-app-mail": "//localhost:9200/hfu-microfrontend-studi-app-mail.js",
+    "@hfu-microfrontend/studi-app-news": "//localhost:9200/hfu-microfrontend-studi-app-news.js",
+    "@hfu-microfrontend/studi-app-nav": "//localhost:9200/hfu-microfrontend-studi-app-nav.js",
+    "@hfu-microfrontend/studi-app-dashboard": "//localhost:9200/hfu-microfrontend-studi-app-dashboard.js",
+    "@hfu-microfrontend/studi-app-dashboard-bib": "//localhost:9200/hfu-microfrontend-studi-app-dashboard-bib.js",
+    "@hfu-microfrontend/studi-app-dashboard-course": "//localhost:9200/hfu-microfrontend-studi-app-dashboard-course.js",
+    "@hfu-microfrontend/studi-app-dashboard-mail": "//localhost:9200/hfu-microfrontend-studi-app-dashboard-mail.js",
+    "@hfu-microfrontend/studi-app-dashboard-news": "//localhost:9200/hfu-microfrontend-studi-app-dashboard-news.js"
+  }
+}

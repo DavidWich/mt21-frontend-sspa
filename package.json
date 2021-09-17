@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "init:npm": "lerna bootstrap --npm-client=npm",
+    "build:npm": "lerna run --npm-client=npm lerna:build",
+    "start:npm": "lerna run --parallel --npm-client=npm lerna:start",
+    "init:yarn": "lerna bootstrap --npm-client=yarn",
+    "build:yarn": "lerna run --npm-client=yarn lerna:build",
+    "start:yarn": "lerna run --parallel --npm-client=yarn lerna:start",
+    "cleanup": "lerna clean"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

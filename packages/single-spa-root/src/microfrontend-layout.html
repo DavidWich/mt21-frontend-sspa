@@ -1,0 +1,26 @@
+<single-spa-router>
+  <main>
+    <div id="modal" />
+    <nav>
+      <application name="@hfu-microfrontend/studi-app-nav"></application>
+    </nav>
+    <route default>
+      <application name="@hfu-microfrontend/studi-app-dashboard"></application>
+    </route>
+    <route path="bib">
+      <application name="@hfu-microfrontend/studi-app-bib"></application>
+    </route>
+    <route path="course">
+      <application name="@hfu-microfrontend/studi-app-course"></application>
+    </route>
+    <route path="login">
+      <application name="@hfu-microfrontend/studi-app-login"></application>
+    </route>
+    <route path="mail">
+      <application name="@hfu-microfrontend/studi-app-mail"></application>
+    </route>
+    <route path="news">
+      <application name="@hfu-microfrontend/studi-app-news"></application>
+    </route>
+  </main>
+</single-spa-router>
