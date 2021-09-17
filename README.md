@@ -6,6 +6,8 @@ This project implements the single-spa example with React.
 
 To properly use this project, a [MongoDB](https://github.com/DavidWich/mt21-backend-db) and an [auth service](https://github.com/DavidWich/mt21-backend-auth) are required.
 
+NOTE: THIS PROJECT CLEARS AN EXISTING MONGODB DATABASE ON PORT 27017.
+
 The result can be accessed on http://localhost:9000/.
 
 The ports 8999, 9000 and 9200 need to be free.
